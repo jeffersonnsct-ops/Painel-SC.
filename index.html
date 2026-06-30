@@ -166,7 +166,7 @@ tbody tr:hover{background:#F6F8FC;}
   </div>
   <div class="topbar-meta">
     <strong>Base:</strong> SCs.xlsx<br>
-    Referencia: 24/06/2026 &nbsp;|&nbsp; Compradores mapeados
+    Referencia: 25/06/2026 &nbsp;|&nbsp; Compradores mapeados
   </div>
 </header>
 
@@ -182,19 +182,19 @@ tbody tr:hover{background:#F6F8FC;}
   <div class="kpi-grid">
     <div class="kpi-card">
       <div class="kpi-eyebrow">Total de Itens Pendentes</div>
-      <div class="kpi-number">35</div>
-      <div class="kpi-sub">Itens com comprador mapeado &middot; 7 SCs distintas</div>
+      <div class="kpi-number">21</div>
+      <div class="kpi-sub">Itens com comprador mapeado &middot; 13 SCs distintas</div>
       <div class="kpi-badge blue">5 compradores ativos</div>
     </div>
     <div class="kpi-card accent-purple">
       <div class="kpi-eyebrow">SLA Medio (Aging Real)</div>
-      <div class="kpi-number medium">0,40 dias</div>
+      <div class="kpi-number medium">3,62 dias</div>
       <div class="kpi-sub">Media calculada item a item &middot; calculo exato por datas</div>
-      <div class="kpi-badge purple">Referencia: 24/06/2026</div>
+      <div class="kpi-badge purple">Referencia: 25/06/2026</div>
     </div>
     <div class="kpi-card accent-red">
       <div class="kpi-eyebrow">Alerta Critico (&gt; 7 dias)</div>
-      <div class="kpi-number">0</div>
+      <div class="kpi-number">4</div>
       <div class="kpi-sub">Nenhum item com atraso critico no momento</div>
       <div class="kpi-badge green">Tudo dentro do prazo</div>
     </div>
@@ -205,7 +205,7 @@ tbody tr:hover{background:#F6F8FC;}
     <div class="chart-card">
       <div class="chart-header">
         <span class="chart-title">Itens por Comprador</span>
-        <span class="chart-total-pill">35 itens</span>
+        <span class="chart-total-pill">21 itens</span>
       </div>
       <div class="pie-wrap">
         <div class="pie-canvas-area"><canvas id="pie1"></canvas></div>
@@ -215,7 +215,7 @@ tbody tr:hover{background:#F6F8FC;}
     <div class="chart-card">
       <div class="chart-header">
         <span class="chart-title">Quantidade de Itens por Classificacao de Aging</span>
-        <span class="chart-total-pill">35 itens</span>
+        <span class="chart-total-pill">21 itens</span>
       </div>
       <div class="canvas-wrap"><canvas id="bar1"></canvas></div>
     </div>
@@ -228,14 +228,14 @@ tbody tr:hover{background:#F6F8FC;}
       <div class="table-toolbar-right">
         <div class="filter-bar">
           <span class="filter-label">Comprador:</span>
-          <button class="filter-btn active" data-c="Todos" onclick="f1(this)"><span>Todos</span><span class="filter-count">7 SCs</span></button>
-          <button class="filter-btn" data-c="Ariesa" onclick="f1(this)"><span class="dot" style="background:#D4A017"></span><span>Ariesa</span><span class="filter-count">2 SCs</span></button>
-          <button class="filter-btn" data-c="Catia" onclick="f1(this)"><span class="dot" style="background:#0EA5A0"></span><span>Catia</span><span class="filter-count">2 SCs</span></button>
+          <button class="filter-btn active" data-c="Todos" onclick="f1(this)"><span>Todos</span><span class="filter-count">13 SCs</span></button>
+          <button class="filter-btn" data-c="Ariesa" onclick="f1(this)"><span class="dot" style="background:#D4A017"></span><span>Ariesa</span><span class="filter-count">1 SC</span></button>
+          <button class="filter-btn" data-c="Catia" onclick="f1(this)"><span class="dot" style="background:#0EA5A0"></span><span>Catia</span><span class="filter-count">1 SC</span></button>
           <button class="filter-btn" data-c="Larissa" onclick="f1(this)"><span class="dot" style="background:#1A7A45"></span><span>Larissa</span><span class="filter-count">2 SCs</span></button>
-          <button class="filter-btn" data-c="Maycon" onclick="f1(this)"><span class="dot" style="background:#1B5DBD"></span><span>Maycon</span><span class="filter-count">1 SC</span></button>
-          <button class="filter-btn" data-c="Thays" onclick="f1(this)"><span class="dot" style="background:#6B3FA0"></span><span>Thays</span><span class="filter-count">0 SCs</span></button>
+          <button class="filter-btn" data-c="Maycon" onclick="f1(this)"><span class="dot" style="background:#1B5DBD"></span><span>Maycon</span><span class="filter-count">5 SCs</span></button>
+          <button class="filter-btn" data-c="Thays" onclick="f1(this)"><span class="dot" style="background:#6B3FA0"></span><span>Thays</span><span class="filter-count">4 SCs</span></button>
         </div>
-        <span class="table-result-count" id="rc1">7 SCs · 35 itens</span>
+        <span class="table-result-count" id="rc1">13 SCs · 21 itens</span>
       </div>
     </div>
     <div class="table-scroll"><table>
@@ -243,7 +243,7 @@ tbody tr:hover{background:#F6F8FC;}
       <tbody id="tb1"></tbody>
     </table></div>
   </div>
-  <div class="footer">Aba 1 &mdash; SC em Aberto &middot; Base: SCs.xlsx &middot; Compradores 005/008/026/028/037 &middot; Referencia: 24/06/2026</div>
+  <div class="footer">Aba 1 &mdash; SC em Aberto &middot; Base: SCs.xlsx &middot; Compradores 005/008/026/028/037 &middot; Referencia: 25/06/2026</div>
 </main>
 </div>
 
@@ -256,7 +256,7 @@ tbody tr:hover{background:#F6F8FC;}
     <!-- Adicionada a classe po-kpi-card base que ja inclui a borda azul -->
     <div class="po-kpi-card">
       <div class="po-kpi-label">TOTAL EM ABERTO</div>
-      <div class="po-kpi-value" id="kTotal2">65</div>
+      <div class="po-kpi-value" id="kTotal2">41</div>
       <div class="po-kpi-sub">Linhas pendentes</div>
     </div>
     
@@ -273,11 +273,11 @@ tbody tr:hover{background:#F6F8FC;}
       <div class="po-status-row" id="kStatus2">
         <span class="po-status-badge po-approved">
           <span class="po-s-icon">&#9651;</span>
-          <span id="kAprov2">39</span> APROVADO
+          <span id="kAprov2">28</span> APROVADO
         </span>
         <span class="po-status-badge po-partial">
           <span class="po-s-icon">&#9677;</span>
-          <span id="kParcial2">26</span> PARCIAL
+          <span id="kParcial2">13</span> PARCIAL
         </span>
       </div>
     </div>
@@ -341,7 +341,7 @@ tbody tr:hover{background:#F6F8FC;}
               <option value="Atendido Parcial">Atendido Parcial</option>
             </select>
           </div>
-          <span class="table-result-count" id="rc2">65 itens encontrados</span>
+          <span class="table-result-count" id="rc2">41 itens encontrados</span>
         </div>
       </div>
     </div>
@@ -350,14 +350,14 @@ tbody tr:hover{background:#F6F8FC;}
       <tbody id="tb2"></tbody>
     </table></div>
   </div>
-  <div class="footer">Aba 2 &mdash; Visao Geral POs &middot; Base: SCs.xlsx &middot; Status PO aprovado/atendido parcial &middot; Dt. Prev. Entrega anterior a 23/06/2026 &middot; uma linha por item de PO &middot; 65 itens (25 POs distintos)</div>
+  <div class="footer">Aba 2 &mdash; Visao Geral POs &middot; Base: SCs.xlsx &middot; Status PO aprovado/atendido parcial &middot; Dt. Prev. Entrega anterior a 23/06/2026 &middot; uma linha por item de PO &middot; 41 itens (19 POs distintos)</div>
 </main>
 </div>
 
 <script>
-var D1=[{"sc": "2", "comprador": "Ariesa", "qtd": 1, "dias": 1, "classificacao": "Menos que 2 dias"}, {"sc": "46159", "comprador": "Larissa", "qtd": 7, "dias": 1, "classificacao": "Menos que 2 dias"}, {"sc": "46203", "comprador": "Catia", "qtd": 3, "dias": 1, "classificacao": "Menos que 2 dias"}, {"sc": "46202", "comprador": "Catia", "qtd": 3, "dias": 1, "classificacao": "Menos que 2 dias"}, {"sc": "46165", "comprador": "Larissa", "qtd": 7, "dias": 0, "classificacao": "Menos que 2 dias"}, {"sc": "46188", "comprador": "Ariesa", "qtd": 6, "dias": 0, "classificacao": "Menos que 2 dias"}, {"sc": "46177", "comprador": "Maycon", "qtd": 8, "dias": 0, "classificacao": "Menos que 2 dias"}];
+var D1=[{"sc": "45674", "comprador": "Maycon", "qtd": 4, "dias": 36, "classificacao": "Mais de 7 dias"}, {"sc": "46205", "comprador": "Maycon", "qtd": 1, "dias": 0, "classificacao": "Menos que 2 dias"}, {"sc": "46120", "comprador": "Maycon", "qtd": 1, "dias": -1, "classificacao": "Menos que 2 dias"}, {"sc": "46272", "comprador": "Catia", "qtd": 1, "dias": -1, "classificacao": "Menos que 2 dias"}, {"sc": "46239", "comprador": "Ariesa", "qtd": 1, "dias": -4, "classificacao": "Menos que 2 dias"}, {"sc": "46290", "comprador": "Maycon", "qtd": 1, "dias": -4, "classificacao": "Menos que 2 dias"}, {"sc": "46293", "comprador": "Maycon", "qtd": 1, "dias": -4, "classificacao": "Menos que 2 dias"}, {"sc": "46281", "comprador": "Larissa", "qtd": 1, "dias": -4, "classificacao": "Menos que 2 dias"}, {"sc": "46269", "comprador": "Thays", "qtd": 2, "dias": -5, "classificacao": "Menos que 2 dias"}, {"sc": "46273", "comprador": "Thays", "qtd": 2, "dias": -5, "classificacao": "Menos que 2 dias"}, {"sc": "46271", "comprador": "Thays", "qtd": 2, "dias": -5, "classificacao": "Menos que 2 dias"}, {"sc": "46270", "comprador": "Thays", "qtd": 2, "dias": -5, "classificacao": "Menos que 2 dias"}, {"sc": "46278", "comprador": "Larissa", "qtd": 2, "dias": -5, "classificacao": "Menos que 2 dias"}];
 
-var D2=[{"po": "32808", "item": "1", "comprador": "Thays", "descricao": "PECA DA CARENAGEM LATERAL ESQUERDA", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "2", "comprador": "Thays", "descricao": "PECA DA CARENAGEM FRONTAL TETO", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "4", "comprador": "Thays", "descricao": "PARA-LAMA DIREITO - SPAD200B", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "3", "comprador": "Thays", "descricao": "CONJUNTO SOLDADO DO PARA-LAMA", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "5", "comprador": "Thays", "descricao": "CHAPA FIX PARA-BARRO", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "6", "comprador": "Thays", "descricao": "CARENAGEM ESQUERDA 1", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "7", "comprador": "Thays", "descricao": "CARENAGEM DIREITA 1", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "8", "comprador": "Thays", "descricao": "CARENAGEM ESQUERDA 2", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "10", "comprador": "Thays", "descricao": "CARENAGEM ESQUERDA 4", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "9", "comprador": "Thays", "descricao": "CARENAGEM ESQUERDA 3", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "11", "comprador": "Thays", "descricao": "CARENAGEM FRONTAL", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "12", "comprador": "Thays", "descricao": "CARENAGEM FRONTAL", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "17", "comprador": "Thays", "descricao": "QUADRO PORTA METALON GERADOR", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "13", "comprador": "Thays", "descricao": "CONJ. SOLDADDO CARENAGEM TRASEIRA", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "14", "comprador": "Thays", "descricao": "CARENAGEM DIREITA 06", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "15", "comprador": "Thays", "descricao": "CARENAGEM DIREITA 07", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "16", "comprador": "Thays", "descricao": "QUADRO CARENAGEM - GERADOR", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "34351", "item": "1", "comprador": "Ariesa", "descricao": "SUPORTE PCI COM LUPA AUMENTO 2,5 HL-S10 HIKARI", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "30/04/2026"}, {"po": "33686", "item": "1", "comprador": "Ariesa", "descricao": "FOLDER", "status": "Atendido Parcial", "mes": "2026-05", "dt_entrega": "01/05/2026"}, {"po": "34616", "item": "1", "comprador": "Ariesa", "descricao": "FOLDER", "status": "Atendido Parcial", "mes": "2026-05", "dt_entrega": "01/05/2026"}, {"po": "35018", "item": "1", "comprador": "Maycon", "descricao": "MANGUEIRA PARA COMBUSTIVEIS 905MT EM PFA - DIAM. INT 6MM", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "22/05/2026"}, {"po": "33772", "item": "2", "comprador": "Thays", "descricao": "GERADOR - CONTORNO BASE GERADOR - SPAD 75A", "status": "Atendido Parcial", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "33772", "item": "53", "comprador": "Thays", "descricao": "TRILHO INTERNO", "status": "Atendido Parcial", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "25", "comprador": "Catia", "descricao": "BERCO TREM DE POUSO DIREITO T25 - SPAD75", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "44", "comprador": "Catia", "descricao": "CARRINHO DRONE T25P - SUPORTE BERCO DIREITO - SPAD 75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "46", "comprador": "Catia", "descricao": "TRILHO INTERNO T20-T25 - TRILHO MOVIMENTACAO - SPAD 75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "26", "comprador": "Catia", "descricao": "BERCO TREM DE POUSO ESQUERDO T25 - SPAD75", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "84", "comprador": "Catia", "descricao": "CHAPA BASE BATERIA", "status": "Atendido Parcial", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "42", "comprador": "Catia", "descricao": "CARRINHO DRONE T20P E T25P - ALCA DE MOVIMENTACAO - SPAD 75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "47", "comprador": "Catia", "descricao": "TRILHO INTERNO T20-T25 - BATENTE VERTICAL CARRINHO - SPAD75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "2", "comprador": "Catia", "descricao": "SPAD75A-05-01-00-001", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "7", "comprador": "Catia", "descricao": "BERCO TREM DE POUSO ESQUERDO T20-T40-T50 - SPAD75", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "5", "comprador": "Catia", "descricao": "TRILHO INTERNO T40-T50 - TRILHO MOVIMENTACAO - SPAD 75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "6", "comprador": "Catia", "descricao": "BERCO TREM DE POUSO DIREITO T20-T40-T50 - SPAD75", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "11", "comprador": "Catia", "descricao": "SPAD 75 - MOVIMENTACAO - BATENTE FRONTAL CARRO T40-T50", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "12", "comprador": "Catia", "descricao": "TRILHO INTERNO T40-T50 - BATENTE VERTICAL CARRINHO - SPAD75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34628", "item": "18", "comprador": "Thays", "descricao": "TRAVA POSTERIOR SUP CONTROLES", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "35058", "item": "1", "comprador": "Larissa", "descricao": "FLUXO DE SOLDA EM PASTA", "status": "Atendido Parcial", "mes": "2026-06", "dt_entrega": "05/06/2026"}, {"po": "35164", "item": "2", "comprador": "Maycon", "descricao": "ELEMENTO FILTRO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35164", "item": "3", "comprador": "Maycon", "descricao": "FILTRO OLIO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35179", "item": "1", "comprador": "Maycon", "descricao": "FILTRO CABINE TITANO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35179", "item": "2", "comprador": "Maycon", "descricao": "FILTRO CABINE TITANO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35179", "item": "3", "comprador": "Maycon", "descricao": "FILTRO CABINE TITANO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35179", "item": "4", "comprador": "Maycon", "descricao": "GRANADA HIGIENIZADOR DE AR CONDICIONADO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35269", "item": "2", "comprador": "Maycon", "descricao": "USCITA - FIAT TITANO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35269", "item": "3", "comprador": "Maycon", "descricao": "USCITA - FIAT TITANO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35269", "item": "4", "comprador": "Maycon", "descricao": "SCAMBIATORE - TROCADOR DE CALOR", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35444", "item": "1", "comprador": "Maycon", "descricao": "ENGATE CARRETA MACHO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "12/06/2026"}, {"po": "34943", "item": "24", "comprador": "Catia", "descricao": "CHICOTE ILUMINACAO SPAD75-A", "status": "Atendido Parcial", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "34943", "item": "26", "comprador": "Catia", "descricao": "CHICOTE AUTOMOTIVO SPAD75-A", "status": "Atendido Parcial", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "35104", "item": "1", "comprador": "Thays", "descricao": "PONTA DE EIXO CARRO T70", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "35104", "item": "2", "comprador": "Thays", "descricao": "HASTE DOBRADA LE C/ BUCHA PINO INDEXADOR", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "35104", "item": "10", "comprador": "Thays", "descricao": "CAIXA PRINCIPAL - BARRA TRAVA TANQUE - SPAD 75A", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "35104", "item": "2", "comprador": "Thays", "descricao": "BUCHA 15 X 12,2 X 40", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "35228", "item": "3", "comprador": "Thays", "descricao": "CHAPA DE FIXACAO CINTAS", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "34606", "item": "1", "comprador": "Maycon", "descricao": "CONCRETO USINADO FCK 20", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "16/06/2026"}, {"po": "35180", "item": "1", "comprador": "Maycon", "descricao": "MOTOR DE PARTIDA DE VEICULO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "16/06/2026"}, {"po": "35325", "item": "1", "comprador": "Maycon", "descricao": "PROTETOR FLEXIVEL - SERIE FEC - 12200B", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "16/06/2026"}, {"po": "35619", "item": "1", "comprador": "Ariesa", "descricao": "ADESIVO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "20/06/2026"}, {"po": "35664", "item": "2", "comprador": "Catia", "descricao": "BLOCO DE ALUMINIO 6063 1/2 X 120 MM", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "20/06/2026"}, {"po": "35339", "item": "1", "comprador": "Larissa", "descricao": "RELE DE ESTADO SOLIDO FOTEK 25A CONTROLE DE CARGAS ELETRICAS AC MONOFASICO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "22/06/2026"}, {"po": "35571", "item": "1", "comprador": "Maycon", "descricao": "ENGATE CARRETA MACHO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "22/06/2026"}, {"po": "35438", "item": "1", "comprador": "Larissa", "descricao": "CABO RG-174 MCX MACHO 90 GRAUS X SMA MACHO 0,25M", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "23/06/2026"}, {"po": "35438", "item": "2", "comprador": "Larissa", "descricao": "CABO RG-174 MCX MACHO 90 GRAUS X SMA MACHO 90 GRAUS 0,25M", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "23/06/2026"}, {"po": "35811", "item": "1", "comprador": "Thays", "descricao": "DISCO WIDEA 110MM X 20 X 40D", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "23/06/2026"}];
+var D2=[{"po": "32808", "item": "15", "comprador": "Thays", "descricao": "CARENAGEM DIREITA 07", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "32808", "item": "17", "comprador": "Thays", "descricao": "QUADRO PORTA METALON GERADOR", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "10/04/2026"}, {"po": "34351", "item": "1", "comprador": "Ariesa", "descricao": "SUPORTE PCI COM LUPA AUMENTO 2,5 HL-S10 HIKARI", "status": "Atendido Parcial", "mes": "2026-04", "dt_entrega": "30/04/2026"}, {"po": "33686", "item": "1", "comprador": "Ariesa", "descricao": "FOLDER", "status": "Atendido Parcial", "mes": "2026-05", "dt_entrega": "01/05/2026"}, {"po": "34616", "item": "1", "comprador": "Ariesa", "descricao": "FOLDER", "status": "Atendido Parcial", "mes": "2026-05", "dt_entrega": "01/05/2026"}, {"po": "35018", "item": "1", "comprador": "Maycon", "descricao": "MANGUEIRA PARA COMBUSTIVEIS 905MT EM PFA - DIAM. INT 6MM", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "22/05/2026"}, {"po": "33772", "item": "2", "comprador": "Thays", "descricao": "GERADOR - CONTORNO BASE GERADOR - SPAD 75A", "status": "Atendido Parcial", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "25", "comprador": "Catia", "descricao": "BERCO TREM DE POUSO DIREITO T25 - SPAD75", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "44", "comprador": "Catia", "descricao": "CARRINHO DRONE T25P - SUPORTE BERCO DIREITO - SPAD 75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "46", "comprador": "Catia", "descricao": "TRILHO INTERNO T20-T25 - TRILHO MOVIMENTACAO - SPAD 75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "26", "comprador": "Catia", "descricao": "BERCO TREM DE POUSO ESQUERDO T25 - SPAD75", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "42", "comprador": "Catia", "descricao": "CARRINHO DRONE T20P E T25P - ALCA DE MOVIMENTACAO - SPAD 75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "47", "comprador": "Catia", "descricao": "TRILHO INTERNO T20-T25 - BATENTE VERTICAL CARRINHO - SPAD75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "2", "comprador": "Catia", "descricao": "SPAD75A-05-01-00-001", "status": "Atendido Parcial", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "7", "comprador": "Catia", "descricao": "BERCO TREM DE POUSO ESQUERDO T20-T40-T50 - SPAD75", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "5", "comprador": "Catia", "descricao": "TRILHO INTERNO T40-T50 - TRILHO MOVIMENTACAO - SPAD 75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "6", "comprador": "Catia", "descricao": "BERCO TREM DE POUSO DIREITO T20-T40-T50 - SPAD75", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "11", "comprador": "Catia", "descricao": "SPAD 75 - MOVIMENTACAO - BATENTE FRONTAL CARRO T40-T50", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34209", "item": "12", "comprador": "Catia", "descricao": "TRILHO INTERNO T40-T50 - BATENTE VERTICAL CARRINHO - SPAD75A", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "34628", "item": "18", "comprador": "Thays", "descricao": "TRAVA POSTERIOR SUP CONTROLES", "status": "Aprovado", "mes": "2026-05", "dt_entrega": "29/05/2026"}, {"po": "35179", "item": "2", "comprador": "Maycon", "descricao": "FILTRO CABINE TITANO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35179", "item": "4", "comprador": "Maycon", "descricao": "GRANADA HIGIENIZADOR DE AR CONDICIONADO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35179", "item": "1", "comprador": "Maycon", "descricao": "FILTRO CABINE TITANO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35179", "item": "3", "comprador": "Maycon", "descricao": "FILTRO CABINE TITANO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "10/06/2026"}, {"po": "35444", "item": "1", "comprador": "Maycon", "descricao": "ENGATE CARRETA MACHO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "12/06/2026"}, {"po": "34943", "item": "24", "comprador": "Catia", "descricao": "CHICOTE ILUMINACAO SPAD75-A", "status": "Atendido Parcial", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "34943", "item": "26", "comprador": "Catia", "descricao": "CHICOTE AUTOMOTIVO SPAD75-A", "status": "Atendido Parcial", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "35104", "item": "1", "comprador": "Thays", "descricao": "PONTA DE EIXO CARRO T70", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "35104", "item": "2", "comprador": "Thays", "descricao": "HASTE DOBRADA LE C/ BUCHA PINO INDEXADOR", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "35104", "item": "10", "comprador": "Thays", "descricao": "CAIXA PRINCIPAL - BARRA TRAVA TANQUE - SPAD 75A", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "35104", "item": "2", "comprador": "Thays", "descricao": "BUCHA 15 X 12,2 X 40", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "35228", "item": "3", "comprador": "Thays", "descricao": "CHAPA DE FIXACAO CINTAS", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "15/06/2026"}, {"po": "34606", "item": "1", "comprador": "Maycon", "descricao": "CONCRETO USINADO FCK 20", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "16/06/2026"}, {"po": "35180", "item": "1", "comprador": "Maycon", "descricao": "MOTOR DE PARTIDA DE VEICULO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "16/06/2026"}, {"po": "35325", "item": "1", "comprador": "Maycon", "descricao": "PROTETOR FLEXIVEL - SERIE FEC - 12200B", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "16/06/2026"}, {"po": "34669", "item": "3", "comprador": "Catia", "descricao": "GUARDA SOL", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "19/06/2026"}, {"po": "35571", "item": "1", "comprador": "Maycon", "descricao": "ENGATE CARRETA MACHO", "status": "Aprovado", "mes": "2026-06", "dt_entrega": "22/06/2026"}, {"po": "35855", "item": "2", "comprador": "Larissa", "descricao": "ASSINATURA LINKEDIN PREMIUM", "status": "Atendido Parcial", "mes": "2026-06", "dt_entrega": "23/06/2026"}, {"po": "35855", "item": "3", "comprador": "Larissa", "descricao": "ASSINATURA LINKEDIN PREMIUM", "status": "Atendido Parcial", "mes": "2026-06", "dt_entrega": "23/06/2026"}, {"po": "35855", "item": "1", "comprador": "Larissa", "descricao": "ASSINATURA LINKEDIN PREMIUM", "status": "Atendido Parcial", "mes": "2026-06", "dt_entrega": "23/06/2026"}, {"po": "35855", "item": "4", "comprador": "Larissa", "descricao": "ASSINATURA LINKEDIN PREMIUM", "status": "Atendido Parcial", "mes": "2026-06", "dt_entrega": "23/06/2026"}];
 
 var CORES = {Ariesa:"#D4A017",Catia:"#0EA5A0",Larissa:"#1A7A45",Maycon:"#1B5DBD",Thays:"#6B3FA0"};
 var CLIST = ["Ariesa","Thays","Catia","Maycon","Larissa"];
@@ -400,8 +400,8 @@ function f1(btn) {
 
 drawT1("Todos");
 
-var pv = [7, 0, 6, 8, 14];
-var ptot = 35;
+var pv = [1, 8, 1, 8, 3];
+var ptot = 21;
 var pcols = CLIST.map(function(c){ return CORES[c]; });
 new Chart(document.getElementById("pie1").getContext("2d"), {
   type: "doughnut",
@@ -418,7 +418,7 @@ for (var i = 0; i < CLIST.length; i++) {
 
 new Chart(document.getElementById("bar1").getContext("2d"), {
   type: "bar",
-  data: { labels: ["Menos que 2 dias","2 a 4 dias","5 a 7 dias","Mais de 7 dias"], datasets: [{ label: "Itens", data: [35, 0, 0, 0], backgroundColor: ["rgba(26,122,69,0.5)","rgba(27,93,189,0.5)","rgba(212,160,23,0.5)","rgba(192,57,43,0.5)"], borderColor: ["#1A7A45","#1B5DBD","#D4A017","#C0392B"], borderWidth: 1.5, borderRadius: 5, borderSkipped: false, barPercentage: .55 }] },
+  data: { labels: ["Menos que 2 dias","2 a 4 dias","5 a 7 dias","Mais de 7 dias"], datasets: [{ label: "Itens", data: [17, 0, 0, 4], backgroundColor: ["rgba(26,122,69,0.5)","rgba(27,93,189,0.5)","rgba(212,160,23,0.5)","rgba(192,57,43,0.5)"], borderColor: ["#1A7A45","#1B5DBD","#D4A017","#C0392B"], borderWidth: 1.5, borderRadius: 5, borderSkipped: false, barPercentage: .55 }] },
   options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: { callbacks: { label: function(ctx){ return " " + ctx.raw + " itens"; } } } }, scales: { y: { beginAtZero: true, grid: { display:true, color: "#E5E7EB" }, ticks: { font: { size: 12 }, color: "#9CA3AF" }, border: { display: false } }, x: { grid: { display:true, color: "#E5E7EB" }, ticks: { font: { size: 12, weight: "600" }, color: "#6B7280" }, border: { display: false } } } }
 });
 
